@@ -1,0 +1,65 @@
+.right-side-wrapper {
+    padding: 1rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+}
+
+.task-wrapper {
+    border: .8px solid #cacaca;
+    border-radius: 8px;
+}
+
+.content-wrapper {
+    padding: 1rem;
+}
+
+.count-down-time {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.common-btn {
+    padding: 10px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 5px rgb(0 0 0 / 15%);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .2s all;
+    width: 100%;
+}
+
+.buy-btn{
+    color: #fff;
+    background-color: #000;
+    margin: 1rem auto; 
+}
+
+.website-btn{
+    border: 1px solid black;
+    background-color: #fff;
+    color: #000;
+}
+
+.buy-btn:hover{
+    opacity: .8;
+}
+.website-btn:hover{
+    color: #0d6efd;
+}
+
+.gap-24{
+    gap: 24px
+}
+
+.contact-text{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.icon{
+    margin-right: 10px
+}

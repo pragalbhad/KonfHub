@@ -1,0 +1,45 @@
+.group-avatar {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 0rem;
+  }
+  
+  .avatar:nth-child(1) {
+    left: 0;
+  }
+  
+  .avatar:nth-child(2) {
+    left: 24px;
+  }
+  
+  .avatar:nth-child(3) {
+    left: 48px;
+  }
+  
+  .more-avatars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    left: 72px;
+    top: 0;
+  }
+  

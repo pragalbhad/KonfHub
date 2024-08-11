@@ -1,0 +1,44 @@
+.workshop-section-wrapper {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.workshop-img-wrapper img{
+    width: 100%;
+}
+
+.view-detail-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.workshop-location{
+    color: rgb(82, 82, 82);
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-flex;
+}
+
+.workshop-link {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.workshop-link:hover {
+    color: #074bb2;
+}
+
+.workshop-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #161616;
+}
+
+.workshop-date{
+    font-weight: 500;
+    font-size: 1rem;
+}
+

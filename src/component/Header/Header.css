@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .logo-left img,
+  .logo-right img {
+    height: 50px; 
+  }
+  
+  .logo-left {
+    margin-right: auto; 
+  }
+  
+  .logo-right {
+    margin-left: auto;
+  }
+  

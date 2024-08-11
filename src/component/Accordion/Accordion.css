@@ -1,0 +1,20 @@
+.accordion {
+
+}
+
+.accordion-item {
+}
+
+.accordion-header {
+  cursor: pointer;
+
+}
+
+.accordion-content {
+}
+
+.accordion-title {
+  background: gainsboro;
+  font-size: 18px;
+  font-weight: 700;
+}

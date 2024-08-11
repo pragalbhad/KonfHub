@@ -1,0 +1,56 @@
+.profile-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+  width: 100%;
+}
+
+.card-img {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.card-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-content {
+    width: 80%;
+}
+
+.card-content h2 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.card-content p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: gray;
+  line-height: 1.2;
+}
+
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px; 
+}
+
+.social-icons a {
+  color: gray;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.social-icons a:hover {
+  color: black;
+}

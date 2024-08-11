@@ -1,0 +1,56 @@
+.custom-drawer {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    background-color: #F5F5F5;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    transition: right 0.3s ease; 
+    overflow-y: auto;
+    width: 100%;
+    z-index: 1045;
+}
+
+@media(min-width: 821px){
+    .custom-drawer{
+        width: 37rem;
+    }
+}
+.custom-drawer.open {
+    right: 0; 
+}
+
+.drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.drawer-header h5 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.drawer-body {
+    padding: 15px;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1044; /* Should be lower than drawer */
+    transition: opacity 0.3s ease;
+}

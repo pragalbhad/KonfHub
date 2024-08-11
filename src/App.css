@@ -1,0 +1,28 @@
+.App {
+  /* text-align: center; */
+}
+
+.font-large{
+  font-size: 20px;
+}
+
+.main{
+  margin: 0 auto;
+  height: 100%;
+}
+
+@media(min-width: 1540px) {
+  .main {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto !important;
+  }
+}
+
+@media(max-width: 1440px) {
+  .main {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto !important;
+  }
+}
